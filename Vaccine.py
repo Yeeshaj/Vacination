@@ -79,7 +79,7 @@ while True:
                mail = smtplib.SMTP('smtp.gmail.com',587)
                mail.ehlo()
                mail.starttls()
-               mail.login('yeeshaj.srivastava@gmail.com','@ntidiest@blishment@risum@313')
+               mail.login('your_gmail_id','your_password')
                mail.sendmail(senders_mail,receivers_mail,message)
                mail.close()
 
