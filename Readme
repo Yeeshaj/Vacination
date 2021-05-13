@@ -1,0 +1,11 @@
+To Run the file you need to import the below packages ,if the packages are not installed you need to download them and set into your running environment, For installation use pip command
+The packages are : 
+import smtplib
+import winsound
+import requests
+import time
+import json
+from datetime import datetime
+from twilio.rest import Client 
+
+For whatsapp Integration please create a free account from twilio and use your account Sid and account token to send messages
